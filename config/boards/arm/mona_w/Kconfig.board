@@ -1,0 +1,8 @@
+# Mona-W board configuration
+
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config BOARD_MONA_W
+	bool "MONA_W"
+	depends on SOC_NRF52840_QIAA

@@ -2,6 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: rmi-kb
+      url-base: https://github.com/rmi-kb
   projects:
     - name: zmk
       remote: zmkfirmware
