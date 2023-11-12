@@ -69,6 +69,12 @@
         >;
     };
 
+	ext-power {
+		compatible = "zmk,ext-power-generic";
+		label = "EXT_POWER";
+		control-gpios = <&gpio0  4 GPIO_ACTIVE_HIGH>;
+	};
+
 	vbatt: vbatt {
 		compatible = "zmk,battery-voltage-divider";
 		label = "BATTERY";
